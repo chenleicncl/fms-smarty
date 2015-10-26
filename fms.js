@@ -1,4 +1,4 @@
-var fms = require('../fms')
+var fms = require('fms')
 
 fms.run({
     port: 3001,
