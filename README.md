@@ -1,8 +1,10 @@
-# FMS Smarty 示例
+# [fms](http://fms.help)-Smarty
 
 FMS 让前端在本地编写 Smarty 模板
 
 [在线预览](http://smarty.fms.help)
+
+[查看 fms.js](fms.js)
 
 ## 安装
 ```shell
