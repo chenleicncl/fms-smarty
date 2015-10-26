@@ -92,6 +92,16 @@ fms.view({
 
 
 fms.view({
+    title: "新闻详情页",
+    type: 'get',
+    url: '/news/detail/',
+    template: 'news_detail.php',
+    data: {
+        title: "三星弯上瘾！Galaxy S7将有无数个版本",
+        content: "HTC是机海战术的代表，其实三星也一点不弱，出个新机器就能衍生出五花八门的各种版本。<br>如果你在等待下一代的旗舰机Galaxy S7，恐怕会被搞得不知如何选择。"}
+})
+
+fms.view({
     title: "留言页",
     type: 'get',
     url: '/message/',
