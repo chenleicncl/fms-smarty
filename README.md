@@ -1,4 +1,4 @@
-# [fms](http://fms.help)-Smarty
+# [fms](http://fms.help)-smarty
 
 FMS 让前端在本地编写 Smarty 模板
 
