@@ -21,7 +21,7 @@ npm install nodemon -g
 ```
 
 ## 启动 
-
+ 
 ```shell
 # 启动 fms.js 并检测文件修改后自动重启
 nodemon -w fms.js fms.js
@@ -35,5 +35,5 @@ nodemon -w fms.js fms.js
 php -S 127.0.0.1:1235 -t mock/
 ```
 
-- 首页 (http://127.0.0.1:3001/)[http://127.0.0.1:3001/]
-- 控制台 (http://127.0.0.1:3001/fms/)[http://127.0.0.1:3001/fms/]
+- 首页 [http://127.0.0.1:3001/](http://127.0.0.1:3001/)
+- 控制台 [http://127.0.0.1:3001/fms/](http://127.0.0.1:3001/fms/)
