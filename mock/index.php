@@ -16,11 +16,12 @@ function __object_array ($array) {
      return $array;  
 }
 $__settings = __object_array(json_decode($_POST['_fms']));
+
 /*
-    template => "/Users/nimojs/Documents/git/fms-demo/simple/view/test.php"
-    templateDir => "/Users/nimojs/Documents/git/fms-demo/simple/"
-    templatePluginDir => /Users/nimojs/Documents/git/fms-demo/simple/plugin/
-    data => {"name":1}
+    template            "/Users/nimojs/Documents/git/fms-demo/view/news.php"
+    templateDir         "/Users/nimojs/Documents/git/fms-demo/view/"
+    templatePluginDir   "/Users/nimojs/Documents/git/fms-demo/view/plugin/"
+    data                "{"title":"论数据约定在前后端配合中的重要性"}"
 */
 
 // smarty 初始化
