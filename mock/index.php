@@ -18,8 +18,9 @@ function __object_array ($array) {
 $__settings = __object_array(json_decode($_POST['_fms']));
 
 /*
-    template            "/Users/nimojs/Documents/git/fms-demo/view/news.php"
+    template            "news.php"
     templateDir         "/Users/nimojs/Documents/git/fms-demo/view/"
+    templatePath        "/Users/nimojs/Documents/git/fms-demo/view/news.php"
     templatePluginDir   "/Users/nimojs/Documents/git/fms-demo/view/plugin/"
     data                "{"title":"论数据约定在前后端配合中的重要性"}"
 */
@@ -36,4 +37,4 @@ foreach ($__settings['data'] as $key => $value) {
 $_smarty->assign($key, $value);
 }
 // 渲染页面
-$_smarty->display($__settings['template']);
+$_smarty->display($__settings['templatePath']);

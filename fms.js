@@ -1,11 +1,12 @@
 var fms = require('fms')
 
+
 fms.run({
-    port: 3001,
+    port: 3003,
     view: {
         templateDir: './view/',
-        templatePluginDir: './plugin/',
-        server: "http://127.0.0.1:1235",
+        templatePluginDir: './view/plugin/',
+        server: "http://127.0.0.1:1237",
         request: function (req, data) {
             data.PAGE_PATH = req.path
         }
