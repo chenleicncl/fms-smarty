@@ -1,5 +1,5 @@
 {include file="include/header1.php"}
-<title>News</title>
+<title>Message</title>
 {include file="include/header2.php"}
 
 <div class="row container">
