@@ -32,7 +32,7 @@ nodemon -w fms.js fms.js
 > 请确保你的电脑中已安装 php cli。[php cli 安装教程](http://fms.help/install-php-cli.html)
 
 ```shell
-php -S 127.0.0.1:1237 -t mock/
+php -S 127.0.0.1:1237 -t mock
 ```
 
 - 首页 [http://127.0.0.1:3003/](http://127.0.0.1:3003/)
