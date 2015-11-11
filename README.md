@@ -1,8 +1,8 @@
-# [fms](http://fms.help)-smarty
+# [fms](http://fmsjs.org)-smarty
 
 FMS 让前端在本地编写 Smarty 模板
 
-[在线预览](http://smarty.fms.help)
+[在线预览](http://smarty.fmsjs.org)
 
 [查看 fms.js](fms.js)
 
@@ -29,7 +29,7 @@ nodemon -w fms.js fms.js
 
 ## 启动后端渲染接口
 
-> 请确保你的电脑中已安装 php cli。[php cli 安装教程](http://fms.help/install-php-cli.html)
+> 请确保你的电脑中已安装 php cli。[php cli 安装教程](http://fmsjs.org/install-php-cli.html)
 
 ```shell
 php -S 127.0.0.1:1237 -t mock
