@@ -7,7 +7,7 @@ fms.run({
         templateDir: './view/',
         templatePluginDir: './view/plugin/',
         server: "http://127.0.0.1:1237",
-        request: function (req, data) {
+        filter: function (req, data) {
             data.PAGE_PATH = req.path
         }
     }
