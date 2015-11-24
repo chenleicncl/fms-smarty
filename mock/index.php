@@ -3,7 +3,7 @@
     PHP 接受 FMS 的 POST 请求使用 Smarty 渲染页面
 */
 date_default_timezone_set("Shanghai/Asia");
-
+// __object_array 将 POST请求转换为 PHP对象
 function __object_array($e){
     $e=(array)$e;
     foreach($e as $k=>$v){
