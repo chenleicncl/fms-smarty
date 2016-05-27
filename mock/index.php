@@ -26,7 +26,8 @@ $__settings = __object_array(json_decode($_POST['_fms']));
 // smarty 初始化
 require('libs/Smarty.class.php');
 $_smarty = new Smarty();
-
+// smarty bug 最高提示级别
+error_reporting(E_ALL);
 // 设置模板目录
 $_smarty->setTemplateDir($__settings['templateDir']);
 
