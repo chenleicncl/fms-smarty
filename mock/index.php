@@ -13,7 +13,7 @@ function __object_array($e){
     }
     return $e;
 }
-$__settings = __object_array(json_decode($_POST['_fms']));
+$__settings = __object_array(json_decode($_POST['_fms'], true));
 
 /*
     template            "news.php"
